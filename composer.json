@@ -1,0 +1,31 @@
+{
+  "name": "macielsalzano/cafeapi",
+  "description": "Biblioteca API para integração com o webservice do SaaS FSPHP",
+  "keywords": [
+    "FSPHP",
+    "UpInside",
+    "Robson V. Leite",
+    "SaaS",
+    "PHP",
+    "Full Stack"
+  ],
+  "homepage": "https://www.upinside.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MacielSalzano\\CafeApi\\": "src"
+    }
+  }
+}
